@@ -1,6 +1,6 @@
 //スライドショーの配列
 const images = [
-  "img/bk-1.JPG",
+  "img/bk-1.jpg",
   "img/bk-2.JPG",
   "img/bk-3.JPG",
   "img/bk-4.jpg",
@@ -22,7 +22,7 @@ const slideimage = () => {
 };
 
 const slidestart = () => {
-  setInterval(slideimage, 2000);
+  setInterval(slideimage, 3000);
 };
 setTimeout(slidestart, 0);
 
