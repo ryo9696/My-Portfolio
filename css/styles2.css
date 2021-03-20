@@ -44,7 +44,7 @@ body {
 .top-wrapper {
   padding: 180px 0px 100px 0px;
   color: white;
-  transition: background-image 3s ease;
+  transition: background-image 1s ease;
   background-image: url(../img/bk-1.jpg);
   background-size: cover;
   height: 700px;
