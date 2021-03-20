@@ -45,7 +45,7 @@ body {
   padding: 180px 0px 100px 0px;
   color: white;
   transition: background-image 2s ease;
-  background-image: url(img/bk-1.jpg);
+  background-image: url(../img/bk-1.jpg);
   background-size: cover;
   height: 700px;
   background-position: center center;
@@ -68,7 +68,7 @@ body {
 
 .fadein.is-active {
   opacity: 1;
-  transition: all ease 0.65s;
+  transition: all ease 1s;
 }
 
 /*about-wrapper*/
