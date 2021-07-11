@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryo's portfolio</title>
+    <link rel="shortcut icon" href="img/1.jpg" />
+    <link rel="stylesheet" href="css/styles2.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <a class="navbar-brand logo" href="#top">Ryo Ito's Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#responsiveMenu"
+        aria-controls="responsiveMenu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="responsiveMenu"
+      >
+        <ul class="navbar-nav" id="header">
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skile">skile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="top-wrapper" id="top">
+      <div class="container">
+        <h1>Ryo Ito's</h1>
+        <h1>Portfolio</h1>
+      </div>
+    </div>
+
+    <div class="about-wrapper fadein" id="profile">
+      <div class="container">
+        <div class="title">profile</div>
+        <div class="container-about row">
+          <img
+            class="
+              myimg-in
+              img-fluid
+              rounded-circle
+              col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12
+            "
+            src="img/2.jpg "
+            alt="写真"
+          />
+
+          <ul class="self-in col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <li><p>名前：小森領</p></li>
+            <li><p>現住所：福岡県福岡市東区</p></li>
+            <li>
+              <p>
+                学歴：福岡工業大学短期大学部ー＞サイバ大学IT総合学部（22年卒業予定）
+              </p>
+            </li>
+            <li><p>生年月日：1999年9月6日 21歳</p></li>
+            <li>
+              <p>
+                その他：筋トレ、ツーリングが趣味です、授業でJavaScriptを学んだことからWeb業界に興味を持ち現在サーバーサイドを勉強しています。
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="skile-wrapper" id="skile">
+      <div class="container fadein">
+        <div class="title">skile</div>
+        <div class="container-skile row">
+          <div class="html col-xl-4 col-md-6 col-xs-12">
+            <img class="item" src="img/html-5.svg" alt="" />
+          </div>
+          <div class="css col-xl-4 col-md-6 col-xs-12">
+            <img class="item" src="img/css-3.svg" alt="" />
+          </div>
+          <div class="javascript col-xl-4 col-md-6 col-xs-12">
+            <img class="item" src="img/javascript.svg" alt="" />
+          </div>
+          <div class="rails col-xl-4 col-md-6 col-xs-12">
+            <img class="item" src="img/rubyonrails.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-wrapper" id="portfolio">
+      <div class="container fadein">
+        <div class="title">portfolio</div>
+        <div class="portfolio-list">
+          <div class="portfolio-1">
+            <div id="open"><img src="img/portforio1.png" /></div>
+            <div id="mask" class="hidden"></div>
+            <section id="modal" class="hidden">
+              <p class="description">My Portfolio</p>
+              <p>自分のポートフォリオサイトとして作成しました。</p>
+              <br />
+              <p class="description">言語、その他</p>
+              <p>HTML/CSS/JavaScript/Bootstrap/VSC</p>
+              <p class="description">
+                <a href="https://github.com/ryo9696/My-Portfolio"
+                  >このポートフォリオのコード</a
+                >
+              </p>
+              <div id="close">close</div>
+            </section>
+          </div>
+          <div class="portfolio-2">
+            <div id="open_2"><img src="img/portforio2.png" /></div>
+            <div id="mask_2" class="hidden_2"></div>
+            <section id="modal_2" class="hidden_2">
+              <p class="description">Touring App</p>
+              <p>
+                バイク乗りがツーリングスポットを共有できるようなwebアプリを作成しました。
+              </p>
+              <br />
+              <p class="description">言語、その他</p>
+              <p>HTML/CSS/Bootstrap/Ruby/RubyonRails/cloud9</p>
+              <p class="description">
+                <a href="https://github.com/ryo9696/touring-app"
+                  >Touring Appのコード</a
+                >
+              </p>
+              <div id="close_2">close</div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-wrapper" id="contact">
+      <div class="container">
+        <div class="title">contact</div>
+        <div class="contact-list">
+          <div class="git">
+            <a href="https://github.com/ryo9696"
+              ><img src="img/github-icon.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="day">
+          <p>Ryo Komori 2021</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
