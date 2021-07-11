@@ -111,7 +111,8 @@ body {
   justify-content: space-around;
 }
 
-#close {
+#close,
+#close_2 {
   cursor: pointer;
   width: 200px;
   border: 1px solid #ccc;
@@ -123,7 +124,8 @@ body {
   color: white;
 }
 
-#mask {
+#mask,
+#mask_2 {
   background: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
@@ -133,7 +135,8 @@ body {
   z-index: 1;
 }
 
-#modal {
+#modal,
+#modal_2 {
   background: #fff;
   color: #555;
   width: 400px;
@@ -147,7 +150,8 @@ body {
   z-index: 2;
 }
 
-#modal p {
+#modal p,
+#modal_2 p {
   margin: 0 0 20px;
 }
 
@@ -157,15 +161,18 @@ body {
   text-align: center;
 }
 
-#mask.hidden {
+#mask.hidden,
+#mask_2.hidden_2 {
   display: none;
 }
 
-#modal.hidden {
+#modal.hidden,
+#modal_2.hidden_2 {
   display: none;
 }
 
-#open {
+#open,
+#open_2 {
   width: 400px;
   cursor: pointer;
   margin: 0;
@@ -173,13 +180,15 @@ body {
   overflow: hidden;
 }
 
-#open img {
+#open img,
+#open_2 img {
   width: 100%;
   height: 100%;
   transform: scale(1);
   transition: 0.3s ease-in-out;
 }
-#open:hover img {
+#open:hover img,
+#open_2:hover img {
   transform: scale(1.3);
 }
 
